@@ -13,7 +13,7 @@ export default function Home() {
 			<NavBar />
 			<div className="text-center mb-5">
 				<h1 className="text-2xl">CoinFlip ETH Game</h1>
-				<h2 className="text-xl mb-4">by Adrian Delgado</h2>
+				<h2 className="text-xl mb-4">by sarvesh bhapkar</h2>
 				{!contract && (
 					<div className="p-clamp mx-auto">
 						<Image src="/metamask.svg" width={200} height={200} />
@@ -30,18 +30,7 @@ export default function Home() {
 							network.
 						</p>
 						<br />
-						<p>
-							If you're using Rinkeby, you will need some test Ether which you
-							can get at a faucet.
-							<br />
-							<a
-								className="text-blue-400 underline"
-								href="https://faucet.rinkeby.io/"
-								target="_blank"
-							>
-								https://faucet.rinkeby.io/
-							</a>
-						</p>
+						
 					</div>
 				)}
 			</div>
